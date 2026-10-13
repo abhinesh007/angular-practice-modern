@@ -1,0 +1,475 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Products",
+      "icon": "sparkles"
+    },
+    {
+      "id": "audio",
+      "name": "Audio & Headphones",
+      "icon": "headphones"
+    },
+    {
+      "id": "computing",
+      "name": "Laptops & Desktops",
+      "icon": "laptop"
+    },
+    {
+      "id": "wearables",
+      "name": "Smartwatches & Bands",
+      "icon": "watch"
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming Gear",
+      "icon": "gamepad"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "icon": "cable"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-101",
+      "title": "Aura ANC Studio Wireless Headphones",
+      "tagline": "Custom 40mm Beryllium drivers with 45dB hybrid ANC",
+      "description": "Experience studio-grade acoustic clarity with real-time adaptive noise cancellation. Crafted with memory foam ear cushions, ultra-low latency Bluetooth 5.3, and up to 48 hours of battery life on a single charge.",
+      "price": 14999,
+      "originalPrice": 19999,
+      "discountPercent": 25,
+      "category": "audio",
+      "rating": 4.8,
+      "ratingCount": 348,
+      "inStock": true,
+      "stockCount": 24,
+      "badge": "Best Seller",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Acoustic Driver": "40mm Custom Beryllium",
+        "Frequency Response": "10Hz - 40,000Hz",
+        "Battery Life": "48 Hours (ANC On)",
+        "Charging": "USB-C Quick Charge (15m = 6h)",
+        "Weight": "245g"
+      }
+    },
+    {
+      "id": "prod-102",
+      "title": "Pulse Ultra OLED Smartwatch",
+      "tagline": "1.96-inch Sapphire AMOLED with ECG & dual GPS",
+      "description": "Precision titanium casing paired with grade-5 sapphire crystal. Features continuous SpO2 and ECG cardiac monitoring, multi-band dual-frequency GPS, and up to 14 days of smart battery performance.",
+      "price": 22499,
+      "originalPrice": 27999,
+      "discountPercent": 20,
+      "category": "wearables",
+      "rating": 4.9,
+      "ratingCount": 512,
+      "inStock": true,
+      "stockCount": 15,
+      "badge": "Top Rated",
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Display": "1.96\" LTPO AMOLED (2000 nits)",
+        "Case Material": "Aerospace Titanium",
+        "Water Resistance": "100m (10 ATM)",
+        "Sensors": "Optical Heart, ECG, SpO2, Barometer",
+        "Battery Life": "14 Days Typical Use"
+      }
+    },
+    {
+      "id": "prod-103",
+      "title": "Zenith Pro X14 Creator Laptop",
+      "tagline": "14.5\" 3K OLED 120Hz, 32GB RAM, 1TB NVMe Gen4",
+      "description": "Built for uncompromising creator and developer workloads. Powered by the latest 16-core neural processor, calibrated OLED display with 100% DCI-P3 gamut, glass haptic trackpad, and magnesium alloy unibody.",
+      "price": 124999,
+      "originalPrice": 139999,
+      "discountPercent": 11,
+      "category": "computing",
+      "rating": 4.7,
+      "ratingCount": 189,
+      "inStock": true,
+      "stockCount": 8,
+      "badge": "Staff Pick",
+      "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Processor": "16-Core Ultra AI Chip (Up to 5.1GHz)",
+        "Memory": "32GB LPDDR5X-7500",
+        "Storage": "1TB PCIe Gen4 NVMe SSD",
+        "Display": "14.5\" 3072x1920 OLED, 120Hz",
+        "Weight": "1.32 kg"
+      }
+    },
+    {
+      "id": "prod-104",
+      "title": "Vortex Pro Wireless Mechanical Keyboard",
+      "tagline": "Gasket-mounted hot-swap with pre-lubed linear switches",
+      "description": "The ultimate tactile typing experience. Built with multi-layer acoustic dampening silicone foam, south-facing RGB per-key illumination, rotary volume dial, and tri-mode 2.4GHz / Bluetooth / wired connectivity.",
+      "price": 8999,
+      "originalPrice": 11499,
+      "discountPercent": 22,
+      "category": "gaming",
+      "rating": 4.9,
+      "ratingCount": 420,
+      "inStock": true,
+      "stockCount": 30,
+      "badge": "Popular",
+      "imageUrl": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Layout": "75% Compact (82 Keys + Knob)",
+        "Switches": "Pre-lubed Factory Linear (Hot-swappable)",
+        "Connectivity": "2.4GHz Wireless, BT 5.2, Type-C",
+        "Battery": "4000mAh (Up to 200h without RGB)",
+        "Weight": "920g"
+      }
+    },
+    {
+      "id": "prod-105",
+      "title": "Apex Aeromouse Ultralight 4K",
+      "tagline": "49g symmetrical gaming mouse with 4,000Hz polling",
+      "description": "Engineered for elite esports precision. Boasting the PixArt 3395 flagship sensor, optical switches rated for 90 million clicks, and pure PTFE virgin mouse feet for zero-friction glide.",
+      "price": 5499,
+      "originalPrice": 6999,
+      "discountPercent": 21,
+      "category": "gaming",
+      "rating": 4.6,
+      "ratingCount": 275,
+      "inStock": true,
+      "stockCount": 42,
+      "badge": "New",
+      "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Sensor": "PixArt 3395 (26,000 DPI)",
+        "Polling Rate": "Up to 4,000Hz",
+        "Weight": "49 grams",
+        "Switches": "Optical Micro-Switches (0.2ms latency)"
+      }
+    },
+    {
+      "id": "prod-106",
+      "title": "Lumio 4K HDR USB-C Studio Monitor",
+      "tagline": "27-inch 4K IPS with 99% AdobeRGB & 90W Power Delivery",
+      "description": "True-to-life color calibration out of the box with Delta E < 1. Single cable docking with 90W fast charging for laptops, built-in USB 3.2 hub, and magnetic ambient backlighting.",
+      "price": 38999,
+      "originalPrice": 45999,
+      "discountPercent": 15,
+      "category": "computing",
+      "rating": 4.8,
+      "ratingCount": 164,
+      "inStock": true,
+      "stockCount": 11,
+      "badge": "Creator Choice",
+      "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Resolution": "3840 x 2160 (4K UHD)",
+        "Color Space": "99% AdobeRGB, 100% sRGB",
+        "Brightness": "450 nits (VESA DisplayHDR 400)",
+        "Ports": "USB-C (90W PD), 2x HDMI 2.1, DisplayPort 1.4"
+      }
+    },
+    {
+      "id": "prod-107",
+      "title": "SonicBuds Pro True Wireless",
+      "tagline": "Spatial Audio with dynamic head tracking & wireless charging",
+      "description": "Pocketable acoustic perfection with seamless multipoint switching across devices. IPX5 water resistance for workouts and quad-mic beamforming noise filtration for crystal-clear calls.",
+      "price": 7999,
+      "originalPrice": 9999,
+      "discountPercent": 20,
+      "category": "audio",
+      "rating": 4.7,
+      "ratingCount": 630,
+      "inStock": true,
+      "stockCount": 50,
+      "badge": "Best Seller",
+      "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Battery": "8h Earbuds + 24h Wireless Case",
+        "Drivers": "11mm Liquid Crystal Polymer",
+        "Codec Support": "LDAC, AAC, SBC",
+        "Water Protection": "IPX5 Sweat-proof"
+      }
+    },
+    {
+      "id": "prod-108",
+      "title": "MagPack 100W GaN Charging Hub",
+      "tagline": "Pocket-sized 4-port fast charger with foldable prongs",
+      "description": "Next-generation Gallium Nitride (GaN III) fast charger capable of simultaneously powering two laptops and two phones with intelligent power distribution and surge protection.",
+      "price": 3499,
+      "originalPrice": 4499,
+      "discountPercent": 22,
+      "category": "accessories",
+      "rating": 4.9,
+      "ratingCount": 810,
+      "inStock": true,
+      "stockCount": 65,
+      "badge": "Must Have",
+      "imageUrl": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Total Output": "100W Max",
+        "Port Config": "3x USB-C PD 3.0, 1x USB-A QC 4.0",
+        "Technology": "GaN III Semiconductor",
+        "Dimensions": "68 x 68 x 31 mm"
+      }
+    },
+    {
+      "id": "prod-109",
+      "title": "Nova Smart Ring Titanium",
+      "tagline": "Continuous sleep stages, recovery index, and temperature trend",
+      "description": "Discreet, featherweight titanium ring designed for 24/7 wellness tracking. Unobtrusive monitoring of HRV, body temperature shifts, and deep sleep stages with a week of battery life.",
+      "price": 18999,
+      "originalPrice": 22999,
+      "discountPercent": 17,
+      "category": "wearables",
+      "rating": 4.6,
+      "ratingCount": 142,
+      "inStock": true,
+      "stockCount": 19,
+      "badge": "Trending",
+      "imageUrl": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Material": "Medical-Grade Titanium (PVD Coated)",
+        "Water Resistance": "50m (Swim-proof)",
+        "Battery": "6-7 Days Continuous",
+        "Weight": "3.5 grams"
+      }
+    },
+    {
+      "id": "prod-110",
+      "title": "AeroDesk Ergonomic Aluminum Laptop Stand",
+      "tagline": "Precision CNC carved 360° rotating dual-pivot stand",
+      "description": "Crafted from sandblasted aircraft-grade aluminum. Elevates screens to eye level for neck relief, features hollowed heat dissipation slots, and folds completely flat for travel.",
+      "price": 2499,
+      "originalPrice": 3299,
+      "discountPercent": 24,
+      "category": "accessories",
+      "rating": 4.8,
+      "ratingCount": 420,
+      "inStock": true,
+      "stockCount": 80,
+      "badge": "",
+      "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Compatibility": "10\" to 17.3\" Laptops & Tablets",
+        "Load Capacity": "Up to 10 kg",
+        "Rotation": "360° Smooth Swivel Base",
+        "Material": "Aviation Aluminum + Silicone Anti-slip"
+      }
+    },
+    {
+      "id": "prod-111",
+      "title": "OmniCharge 25,000mAh Airline-Safe Power Bank",
+      "tagline": "140W bidirectional fast charging with digital OLED screen",
+      "description": "Heavy-duty portable power station designed to charge laptops at full 140W speed. Features real-time watt/amp telemetry on the crisp OLED screen, pass-through charging, and TSA compliance.",
+      "price": 6999,
+      "originalPrice": 8499,
+      "discountPercent": 18,
+      "category": "accessories",
+      "rating": 4.9,
+      "ratingCount": 390,
+      "inStock": true,
+      "stockCount": 35,
+      "badge": "High Demand",
+      "imageUrl": "https://images.unsplash.com/photo-1609592807908-1e43e223b9d1?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1609592807908-1e43e223b9d1?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Capacity": "25,000mAh (92.5Wh - Flight Safe)",
+        "Max Output": "140W USB-C PD 3.1",
+        "Input Recharge": "100W (Full charge in 65 mins)",
+        "Screen": "Live Watts, Volts, Battery Health"
+      }
+    },
+    {
+      "id": "prod-112",
+      "title": "ProStreamer XLR Dynamic Broadcast Mic",
+      "tagline": "Broadcast-grade cardioid capsule with integrated preamp",
+      "description": "Rich, radio-ready vocal presence designed for streamers and podcasters. Features built-in pop filter, internal shock suspension, and dual XLR / USB-C 24-bit 96kHz output.",
+      "price": 11999,
+      "originalPrice": 14999,
+      "discountPercent": 20,
+      "category": "audio",
+      "rating": 4.8,
+      "ratingCount": 215,
+      "inStock": true,
+      "stockCount": 22,
+      "badge": "Pro Studio",
+      "imageUrl": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&auto=format&fit=crop&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&auto=format&fit=crop&q=80"
+      ],
+      "specs": {
+        "Polar Pattern": "Cardioid Dynamic",
+        "Bit Depth / Sample Rate": "24-bit / 96kHz",
+        "Connectors": "XLR 3-Pin + USB-C Digital",
+        "Headphone Jack": "Zero-latency 3.5mm Monitoring"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-101",
+      "author": "Vikram Patel",
+      "rating": 5,
+      "date": "2026-10-02",
+      "title": "Unrivalled Soundstage and ANC",
+      "comment": "The beryllium drivers reproduce acoustic instruments with pristine nuance. ANC completely eliminates flight engine hum. Easily outperforms competitors in this price tier."
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-101",
+      "author": "Priya Sharma",
+      "rating": 5,
+      "date": "2026-09-24",
+      "title": "Battery life is insane!",
+      "comment": "Used it through a 40-hour work week including meetings and music listening, and still had 25% battery remaining. Very comfortable headband with glasses."
+    },
+    {
+      "id": "rev-3",
+      "productId": "prod-102",
+      "author": "Anand Mehta",
+      "rating": 5,
+      "date": "2026-10-05",
+      "title": "Premium titanium feel and pinpoint GPS",
+      "comment": "Dual frequency GPS logged my half-marathon route through dense high-rise buildings with zero drift. The sapphire screen hasn't caught a single scratch."
+    },
+    {
+      "id": "rev-4",
+      "productId": "prod-103",
+      "author": "Karthik R.",
+      "rating": 5,
+      "date": "2026-09-18",
+      "title": "Exceptional compilation speed for Angular & Docker",
+      "comment": "Compiles our massive frontend monorepo in under 12 seconds. The OLED screen is sharp and true to color. Glass trackpad feels premium."
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-2026-8910",
+      "orderNumber": "ORD-2026-8910",
+      "date": "2026-10-08T11:20:00.000Z",
+      "status": "delivered",
+      "totalAmount": 17498,
+      "shippingAddress": {
+        "fullName": "Abhinesh Gour",
+        "email": "abhinesh.gour@example.com",
+        "phone": "9876543210",
+        "street": "14 Tech Residency, Outer Ring Road",
+        "city": "Bengaluru",
+        "postalCode": "560103"
+      },
+      "paymentMethod": "upi",
+      "items": [
+        {
+          "productId": "prod-101",
+          "title": "Aura ANC Studio Wireless Headphones",
+          "price": 14999,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80"
+        },
+        {
+          "productId": "prod-110",
+          "title": "AeroDesk Ergonomic Aluminum Laptop Stand",
+          "price": 2499,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "ord-2026-9045",
+      "orderNumber": "ORD-2026-9045",
+      "date": "2026-10-11T16:45:00.000Z",
+      "status": "processing",
+      "totalAmount": 22499,
+      "shippingAddress": {
+        "fullName": "Abhinesh Gour",
+        "email": "abhinesh.gour@example.com",
+        "phone": "9876543210",
+        "street": "14 Tech Residency, Outer Ring Road",
+        "city": "Bengaluru",
+        "postalCode": "560103"
+      },
+      "paymentMethod": "card",
+      "items": [
+        {
+          "productId": "prod-102",
+          "title": "Pulse Ultra OLED Smartwatch",
+          "price": 22499,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "oLOez69hVu4",
+      "orderNumber": "ORD-2026-ord-2940",
+      "date": "2026-10-13T18:26:12.940Z",
+      "status": "processing",
+      "totalAmount": 43748,
+      "shippingAddress": {
+        "fullName": "Abhinesh Gour",
+        "email": "abhinesh.gour@example.com",
+        "phone": "9876543210",
+        "street": "14 Tech Residency, Outer Ring Road",
+        "city": "Bengaluru",
+        "postalCode": "560103"
+      },
+      "paymentMethod": "upi",
+      "items": [
+        {
+          "productId": "prod-101",
+          "title": "Aura ANC Studio Wireless Headphones",
+          "price": 14999,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80"
+        },
+        {
+          "productId": "prod-102",
+          "title": "Pulse Ultra OLED Smartwatch",
+          "price": 22499,
+          "quantity": 1,
+          "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80"
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
